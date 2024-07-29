@@ -1,76 +1,164 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	 <style>
-        /* Container for the entire content */
-        .container {
-            width: 1100px;
-            margin: 0 auto; /* Center the container horizontally */
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.</title>
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+<style>
 
-        td {
-            border: 1px solid black;
-            text-align: center;
-        }
+body {
 
-        .image-cell {
-            width: 200px;
-        }
+  font-family: Arial, Helvetica, sans-serif;
 
-        .text-cell {
-            width: 600px;
-        }
-/* 
-        .imageContainer {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } */
+}
 
-        .imageContainer img {
-            width: 100%;
-            height: 100%;
-            display: block;
-        }
-    </style>
+
+.container {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  width: 100%;
+
+}
+
+
+.box {
+
+  width: 33%;
+
+  background-color: lightgray;
+
+  padding: 10px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 5px;
+
+}
+
+
+.box img {
+
+  max-width: 100%;
+
+  height: auto;
+
+}
+
+
+.box a {
+
+  color: blue;
+
+  text-decoration: none;
+
+}
+
+
+.box a:hover {
+
+  text-decoration: underline;
+
+}
+
+
+.box p {
+
+  margin-top: 10px;
+
+}
+
+
+.title {
+
+  font-size: 1.2em;
+
+  font-weight: bold;
+
+}
+
+
+.objective {
+
+  font-size: 1.1em;
+
+  font-weight: bold;
+
+}
+
+
+.green-floor {
+
+  background-color: #f2f2f2;
+
+}
+
+</style>
+
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<div class="imageContainer">
-		<img src = "https://storage.googleapis.com/acciojob-open-file-collections/5c751d10-50b1-4ef7-887a-ee69223c7c53_Screenshot%202023-08-16%20at%2012.56.13%20AM.png">
-	<!-- </div>
-	<table>
-        <tr>
-			<td class="image-cell">Row</td>
-            <td class="image-cell">First Column (Width: 200)</td>
-            <td class="text-cell">Middle Column (Width: 600)</td>
-            <td class="image-cell">Last Column (Width: 200)</td>
-        </tr>
-        <tr>
-			<td class="image-cell">1</td>
-            <td class="image-cell">Image</td>
-            <td class="text">Text Content</td>
-            <td class="image-cell">Image</td>
-        </tr>
-        <tr>
-			<td class="image-cell">2</td>
-            <td class="image-cell">Image</td>
-            <td class="text-cell">Text Content</td>
-            <td class="image-cell">Image</td>
-        </tr>
-    </table> -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+
+<div class="container">
+
+  <div class="box">
+
+    <img src="https://i.imgur.com/p6p6a0R.jpg" alt="House Plans">
+
+    <p><b>HousePlans.com</b> The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas</p>
+
+    <a href="https://www.houseplans.com/">learn more</a>
+
+  </div>
+
+  <div class="box">
+
+    <div class="title">Unit #5 - Floor Plans</div>
+
+    <p>A. Kitchen</p>
+
+    <p>B. Bathroom</p>
+
+    <p>C. Using "Slabs"</p>
+
+    <p>D. Georgian Home</p>
+
+    <p>E. Sketching Assignment #5</p>
+
+  </div>
+
+  <div class="box">
+
+    <img src="https://i.imgur.com/qC76T9O.jpg" alt="Spiral Staircase">
+
+  </div>
+
+  <div class="box">
+
+    <div class="objective">Objective</div>
+
+    <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles. Design a functional kitchen to meet a family's needs Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center. Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area Apply design principles to planning a living room Integrate the furniture in a living room plan Analyze a dining room using good design principles. Design a functional entry and foyer.</p>
+
+  </div>
+
+  <div class="box green-floor">
+
+    <div class="title">Green Floor</div>
+
+    <p>FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.</p>
+
+    <a href="https://www.freegreen.com/">learn more</a>
+
+  </div>
+
+</div>
+
 
 </body>
 
